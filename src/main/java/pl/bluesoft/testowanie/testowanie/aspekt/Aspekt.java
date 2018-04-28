@@ -20,10 +20,11 @@ public class Aspekt {
 		System.out.println("konstruktor aspektu!");
 	}
 	
-	@Around("execution(* pl.bluesoft.testowanie.testowanie.obiektTestowy.ObiektTestowy.obiektTestowyPrint())")
+	//@Around("execution(* pl.bluesoft.testowanie.testowanie.obiektTestowy.ObiektTestowy.obiektTestowyPrint())")
+	@Around("@annotation(LogSth)")
 	public void print() throws Exception {
 		System.out.print("aspekt wykonuje sie!!!");
-		Exception e = new Exception();
-		throw e;
+//		Exception e = new Exception();
+//		throw e;
 	}
 }

@@ -9,6 +9,8 @@ import pl.bluesoft.testowanie.testowanie.controller.Controller;
 import pl.bluesoft.testowanie.testowanie.obiektTestowy.ObiektTestowy;
 
 @Configuration
+@EnableAspectJAutoProxy(proxyTargetClass=true)
+
 public class Config {
 
 	@Bean
