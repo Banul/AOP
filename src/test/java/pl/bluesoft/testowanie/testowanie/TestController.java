@@ -1,5 +1,6 @@
-package pl.bluesoft.testowanie.testowanie.test;
+package pl.bluesoft.testowanie.testowanie;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -29,7 +30,6 @@ public class TestController extends AbstractJUnit4SpringContextTests {
 	
 	@Test
 	@LogSth
-
 	public void testController() throws Exception {
 	//	mvc.perform(get("/test/a").contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 		/*
@@ -39,6 +39,8 @@ public class TestController extends AbstractJUnit4SpringContextTests {
 		 */
 	
 		controller.testController();
+		Logger log = Logger.getLogger(ObiektTestowy.class);
+		log.info("CHUJ");
 	}
 
 }

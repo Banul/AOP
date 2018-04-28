@@ -22,8 +22,9 @@ public class Aspekt {
 	
 	//@Around("execution(* pl.bluesoft.testowanie.testowanie.obiektTestowy.ObiektTestowy.obiektTestowyPrint())")
 	@Around("@annotation(LogSth)")
-	public void print() throws Exception {
+	public void print(ProceedingJoinPoint joinPoint) throws Throwable {
 		System.out.print("aspekt wykonuje sie!!!");
+		joinPoint.proceed();
 //		Exception e = new Exception();
 //		throw e;
 	}
