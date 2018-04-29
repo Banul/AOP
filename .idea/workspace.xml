@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a734a5c-0033-4081-bda3-518660ce7e5b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bluesoft/testowanie/testowanie/appender/MyAppender.java" afterPath="$PROJECT_DIR$/src/main/java/pl/bluesoft/testowanie/testowanie/appender/MyAppender.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bluesoft/testowanie/testowanie/config/Config.java" afterPath="$PROJECT_DIR$/src/main/java/pl/bluesoft/testowanie/testowanie/config/Config.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bluesoft/testowanie/testowanie/obiektTestowy/ObiektTestowy.java" afterPath="$PROJECT_DIR$/src/main/java/pl/bluesoft/testowanie/testowanie/obiektTestowy/ObiektTestowy.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/bluesoft/testowanie/testowanie/TestController.java" afterPath="$PROJECT_DIR$/src/test/java/pl/bluesoft/testowanie/testowanie/TestController.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/bluesoft/testowanie/testowanie/appender/MyAppender.class" afterPath="$PROJECT_DIR$/target/classes/pl/bluesoft/testowanie/testowanie/appender/MyAppender.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/bluesoft/testowanie/testowanie/config/Config.class" afterPath="$PROJECT_DIR$/target/classes/pl/bluesoft/testowanie/testowanie/config/Config.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.bluesoft.testowanie.testowanie.AppTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.bluesoft.testowanie.testowanie.TestController.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.bluesoft.testowanie.testowanie.AppTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.bluesoft.testowanie.testowanie.TestController.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/bluesoft/testowanie/testowanie/TestController.class" afterPath="$PROJECT_DIR$/target/test-classes/pl/bluesoft/testowanie/testowanie/TestController.class" />
-      <change beforePath="$PROJECT_DIR$/target/testowanie-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/testowanie-0.0.1-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/testowanie.iml" afterPath="$PROJECT_DIR$/testowanie.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +17,9 @@
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/bluesoft/testowanie/testowanie/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="-331">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1250#1251#0" expanded="true" />
                 <element signature="e#1316#1317#0" expanded="true" />
                 <element signature="e#1351#1352#0" expanded="true" />
@@ -195,7 +175,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="346" />
     <option name="y" value="60" />
     <option name="width" value="1346" />
@@ -544,9 +524,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestController_(1) - 2018.04.29 at 02h 15m 25s.xml">
-      <configuration name="TestController (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestController_(1) - 2018.04.29 at 02h 18m 44s.xml">
       <configuration name="TestController (1)" configurationId="JUnit" />
     </history-entry>
@@ -560,6 +537,9 @@
       <configuration name="TestController (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestController_(1) - 2018.04.29 at 02h 32m 17s.xml">
+      <configuration name="TestController (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_(1) - 2018.04.29 at 02h 34m 15s.xml">
       <configuration name="TestController (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestController_testMethod - 2018.04.29 at 02h 25m 21s.xml">
@@ -576,7 +556,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -622,7 +602,6 @@
         <state relative-caret-position="85">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1250#1251#0" expanded="true" />
             <element signature="e#1316#1317#0" expanded="true" />
             <element signature="e#1351#1352#0" expanded="true" />
@@ -720,7 +699,6 @@
         <state relative-caret-position="680">
           <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1250#1251#0" expanded="true" />
             <element signature="e#1316#1317#0" expanded="true" />
             <element signature="e#1351#1352#0" expanded="true" />
@@ -934,10 +912,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/bluesoft/testowanie/testowanie/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="-331">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1250#1251#0" expanded="true" />
             <element signature="e#1316#1317#0" expanded="true" />
             <element signature="e#1351#1352#0" expanded="true" />

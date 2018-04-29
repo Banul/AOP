@@ -54,4 +54,10 @@ public class TestController extends AbstractJUnit4SpringContextTests {
 		System.out.println(log1.get(0).getMessage());
 	}
 
+	@Test
+    public void secondTestMethod() throws Exception {
+        obiekt.obiektTestowyPrint();
+        List<LoggingEvent> log1 = appender.getLog();
+        System.out.println(log1.get(0).getMessage());
+    }
 }
