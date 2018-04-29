@@ -7,12 +7,11 @@ public class ObiektTestowy {
 	public ObiektTestowy() {
 		System.out.println("Konstruktor obiektu testowego");
 	}
-	private Logger log = Logger.getLogger(ObiektTestowy.class);
 
 
 	@LogSth
 	public void obiektTestowyPrint() throws Exception {
-		System.out.println("printowanie obiekt testowy!!");
+		Logger log = Logger.getLogger(ObiektTestowy.class);
 		log.info("LOGUJE SIE!");
 
 	

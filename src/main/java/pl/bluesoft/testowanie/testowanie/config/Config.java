@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
+import pl.bluesoft.testowanie.testowanie.appender.MyAppender;
 import pl.bluesoft.testowanie.testowanie.aspekt.Aspekt;
 import pl.bluesoft.testowanie.testowanie.controller.Controller;
 import pl.bluesoft.testowanie.testowanie.obiektTestowy.ObiektTestowy;
@@ -29,5 +30,10 @@ public class Config {
 	public Controller controller() {
 		System.out.println("controller config");
 		return new Controller();
+	}
+
+	@Bean
+	public MyAppender appender(){
+		return new MyAppender();
 	}
 }
